@@ -20,6 +20,9 @@
 #define TJS_WORKER_DEFAULT_MAX_NUMBER 10
 
 
+#define TJS_QUEUE_NAME_PREFIX  "$_@tJsTjS@_$:"
+
+
 
 
 

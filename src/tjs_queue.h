@@ -9,6 +9,8 @@ struct tjs_queue_s
 
     void        *connection;
 
+    char        name[TJS_QUEUE_NAME_MAX_LENGTH];
+
     tjs_task_t* (*get_next_task)(tjs_queue_s *self);
 
     tjs_bool    (*ack_task)(tjs_queue_s *self,tjs_task_t *task);
